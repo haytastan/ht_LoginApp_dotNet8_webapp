@@ -38,14 +38,14 @@ A modern, secure, and user-friendly authentication system built with .NET 8.0 an
 ### Prerequisites
 
 - Visual Studio 2022
-- .NET 9.0 SDK
-- SQL Server (or LocalDB)
+- .NET 8.0 SDK
+- PostgreSQL 16 Server
 
 ### Setup
 
 1. Clone or download this repository
 2. Open the solution in Visual Studio 2022
-3. Update the connection string in `appsettings.json` if needed
+3. Update the connection string in `appsettings.json` according to your database connection.
 4. Run the following commands in Package Manager Console:
    ```
    Update-Database
@@ -60,12 +60,9 @@ A modern, secure, and user-friendly authentication system built with .NET 8.0 an
 
 ## Design Elements
 
-- Clean, minimalist interface with subtle animations
-- Cohesive color system with primary blue (#0078D4)
+- Clean, minimalist interface
+- Cohesive color system with primary blue
 - Responsive design for all devices
-- Apple-inspired form elements
-- High contrast for accessibility
-- Consistent 8px spacing system
 
 ## License
 
